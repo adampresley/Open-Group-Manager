@@ -13,7 +13,7 @@ An application designed to manage a group as if it were an open source project.
 Contributing it easy!
 
 ### Code
-1. Fork the project to your own repo.
+1. [Fork](https://github.com/dfwcfml/Open-Group-Manager#fork_box) the project to your own repo.
 2. Make and commit changes.
 3. [Send a Pull Request](http://help.github.com/pull-requests/) with your changes back to the project fork as a patch.
 
