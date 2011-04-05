@@ -6,6 +6,11 @@
 		<cfreturn this />
 	</cffunction>
 	
+	<cffunction name="before" output="false" hint="I fire before the action is called">
+		<cfargument name="rc" />
+		<cfset variables.fw.service( 'navigation.topMenu', 'topNav' ) />
+	</cffunction>
+	
 	<cffunction name="default" output="false" hint="Default action.">
 		<cfargument name="rc" />
 		<cfset rc.when = now() />	<!--- set when for service argument --->

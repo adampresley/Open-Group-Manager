@@ -56,6 +56,12 @@
 	};
 	--->
 	
+	<cfscript>
+	variables.framework = {
+		generateSES = true
+	};
+	</cfscript>
+	
 	<cffunction name="setupRequest">
 		<!--- use setupRequest to do initialization per request --->
 		<cfset request.context.startTime = getTickCount() />
