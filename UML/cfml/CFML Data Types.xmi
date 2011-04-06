@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Apr 06 10:11:11 CDT 2011'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.32.2(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B0'
+      name = 'CFML' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B1'
+          name = 'String' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B2'
+          name = 'Numeric' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B3'
+          name = 'Array' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B4'
+          name = 'Query' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B5'
+          name = 'Any' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B6'
+          name = 'Date' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B7'
+          name = 'Component' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B8'
+          name = 'Boolean' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014B9'
+          name = 'Binary' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BA'
+          name = 'GUID' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BB'
+          name = 'Struct' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BC'
+          name = 'VariableName' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BD'
+          name = 'Void' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BE'
+          name = 'XML' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '10-12-8--123-4ef8116b:12f2b3fe827:-8000:00000000000014BF'
+          name = 'UUID' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>
