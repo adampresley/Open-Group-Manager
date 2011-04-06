@@ -57,6 +57,14 @@
 	--->
 	
 	<cfscript>
+	this.name = "ogm";
+	this.datasource = "ogm";
+	this.ormenabled = true;
+	this.ormsettings = {
+		dialect = "mysql",
+		dbcreate = "dropcreate"
+	};
+	
 	variables.framework = {
 		generateSES = true
 	};
