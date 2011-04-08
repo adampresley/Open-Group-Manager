@@ -2,7 +2,7 @@
 	
 	<cfimport path="org.dfwcfml.ticket.*" />
 	
-	<cfproperty name="id" fieldtype="id" generator="identity" />
+	<cfproperty name="userid" fieldtype="id" generator="native" />
 	<cfproperty name="email" type="String" required="true" />
 	<cfproperty name="password" type="String" required="true" />
 	<cfproperty name="firstName" type="String" required="true" />

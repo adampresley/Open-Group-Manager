@@ -2,7 +2,7 @@
 	
 	<cfimport path="org.dfwcfml.ogm.user.*" />
 	
-	<cfproperty name="id" fieldtype="id" generator="identity" />
+	<cfproperty name="ticketid" fieldtype="id" generator="native" />
 	<cfproperty name="title" type="String" required="true" />
 	<cfproperty name="summary" type="String" required="true" />
 	<cfproperty name="dateCreated" type="Date" required="true" />
