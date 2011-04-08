@@ -17,15 +17,28 @@
 	</cffunction>
 	
 	<cffunction name="authoredTickets" access="public" returntype="Ticket[]" output="false">
-		<!--- TODO: Method Stub --->
+		<cfreturn findAllTicketsBy("TicketAuthor") />
 	</cffunction>
 	
 	<cffunction name="ticketVotes" access="public" returntype="Ticket[]" output="false">
-		<!--- TODO: Method Stub --->
+		<cfreturn findAllTicketsBy("TicketVote") />
 	</cffunction>
 	
 	<cffunction name="assignedTickets" access="public" returntype="Ticket[]" output="false">
-		<!--- TODO: Method Stub --->
+		<cfreturn findAllTicketsBy("TicketAssignee") />
+	</cffunction>
+	
+	<cffunction name="findAllTicketsBy" access="private" returntype="Ticket[]" output="false">
+		<cfargument name="relClass" type="String" required="true" />
+		
+		<cfset local.ticketRels = entityload(arguments.relClass,{user=this}) />
+		<cfset local.tickets = [] />
+		<cfif !isNull(local.ticketRels)>
+			<cfloop array="#local.ticketRels#" index="local.ticketAuthor">
+				<cfset arrayAppend(local.tickets,local.ticketAuthor.getTicket()) />
+			</cfloop>
+		</cfif>
+		<cfreturn local.tickets />
 	</cffunction>
 	
 </cfcomponent>

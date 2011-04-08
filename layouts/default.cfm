@@ -55,7 +55,7 @@ href="javascript:ts('body',-1)">[-]</a></div>
 </div>
 <div id="clear"></div></div>
 <div id="footer">
-<p>Design by <a href="http://loadfoo.org/" rel="external">LoadFoO</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
+<p>Managed by the <a href="http://dfwcfml.org/" target="_blank">DFW CFML User Group</a>. Design by <a href="http://loadfoo.org/" rel="external">LoadFoO</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
 </div>
 </div>
 
