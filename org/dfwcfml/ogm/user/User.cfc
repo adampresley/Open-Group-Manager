@@ -1,4 +1,4 @@
-<cfcomponent output="false" persistent="true">
+<cfcomponent extends="org.dfwcfml.ogm.entity.PersistentEntity" output="false" persistent="true">
 	
 	<cfimport path="org.dfwcfml.ticket.*" />
 	

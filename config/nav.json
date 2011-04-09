@@ -1,0 +1,10 @@
+[
+	{
+		label = "home",
+		action = "main.default"
+	},
+	{
+		label = "topic",
+		action = "topic.default"
+	}
+]

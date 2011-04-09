@@ -57,22 +57,41 @@
 	--->
 	
 	<cfscript>
-	this.name = "ogm";
-	this.datasource = "ogm";
-	this.ormenabled = true;
-	this.ormsettings = {
-		dialect = "mysql",
-		dbcreate = "dropcreate"
-	};
-	
-	variables.framework = {
-		generateSES = true
-	};
+		
+		this.name = "Open Group Manager";
+		this.datasource = "ogm";
+		this.ormenabled = true;
+		
+		this.ormsettings = {
+			dialect = "mysql",
+			dbcreate = "dropcreate"
+		};
+		
+		variables.framework = {
+			generateSES = true
+		};
 	</cfscript>
 	
+	<cffunction name="onApplicationStart">
+		<cfset super.onApplicationStart(ArgumentCollection=arguments) />
+		<cfset setupApplicationConfig() />
+	</cffunction>
+	
+	<cffunction name="setupApplication">
+		<cfset super.setupApplication() />
+		<cfset setupApplicationConfig() />
+	</cffunction>
+	
 	<cffunction name="setupRequest">
+		<cfif !structKeyExists(application,'configBean')>
+			<cfset setupApplicationConfig() />
+		</cfif>
 		<!--- use setupRequest to do initialization per request --->
 		<cfset request.context.startTime = getTickCount() />
+	</cffunction>
+	
+	<cffunction name="setupApplicationConfig">
+		<cfset application.configBean = createObject("component","org.dfwcfml.ogm.ConfigBean").init() />
 	</cffunction>
 	
 </cfcomponent>

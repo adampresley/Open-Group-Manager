@@ -3,3 +3,4 @@ WEB-INF/*
 *~
 data/ogm.*.temp.db
 data/ogm.lock.db
+data/ogm.*.log.db
